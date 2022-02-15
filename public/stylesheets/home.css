@@ -1,0 +1,45 @@
+body {
+    /* background-image: url(/images/Homepage\ Background.jpg) ; */
+    background-image: url(../images/Homepage\ Background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-position: center; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hoverbg {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+
+  }
+/* .hoverclass{
+    font-family:'Courier New', Courier, monospace;
+} */
+.hoverclass :hover{
+    text-decoration: underline;
+
+    
+}
+.hoverbg li{
+    position:relative;
+    display:inline;
+    margin:6rem;
+    text-transform:uppercase;
+    font-size: 70px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+@media (max-width: 1120px) {
+    .hoverbg{
+        top:30%;
+    }
+    .hoverbg li{
+        display: block;
+    
+    }
+}

@@ -1,0 +1,73 @@
+        <!--  menu  -->
+        <nav>
+                <!-- logo -->
+                <a href="/" class="logo">
+                    <img src="./images/logo.png"/>
+                </a>
+                <!-- menu -->
+                <div class="nav-links" id="navLinks">
+                    <i class="material-icons" onclick="hideMenu()">close</i>
+                    <ul class="menu">
+                        <li><a href="/menu">Menu</a></li>
+                        <li><a href="/order">Order</a></li>
+                        <li><a href="/reserve">Reserve</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/login">
+                            <img src="./images/circle-cropped.png" />
+                            <!--<i class="far fa-user"></i> -->
+                        </a></li>
+                    </ul>
+                </div>
+                <i class="material-icons" onclick="showMenu()">menu</i>
+        </nav>
+    <div class="description">Choose a date and pick an available table
+    </div>
+    <div class="container">
+        <div class="left" >
+            <div class="AllTables">
+                <div id="t1" class="table10"></div>
+                <div id="t2" class="table16"></div>
+                <div id="t3" class="table4"></div>
+                <div id="t4" class="table4"></div>
+                <div id="t5" class="table4"></div>
+                <div id="t6" class="table4"></div>
+                <div id="t7" class="table4"></div>
+                <div id="t8" class="table6"></div>
+                <div id="t9" class="table6"></div>
+                <div id="t10" class="table6"></div>
+                <div id="t11" class="table6"></div>
+                <div id="t12" class="table6"></div>
+                <div id="t13" class="table6"></div>
+                <div id="t14" class="table4"></div>
+                <div id="t15" class="table4"></div>
+                <div id="t16" class="table6"></div>
+                <div id="t17" class="table6"></div>
+                <div id="t18" class="table4"></div>
+                <div id="t19" class="table4"></div>
+                <div id="t20" class="table4"></div>
+                <div id="t21" class="table4"></div>
+                <div id="t22" class="table4"></div>
+            </div>
+        </div>
+        <div class="right">
+            <form class="datecheck">
+                <input class="datetime1" type="date" placeholder="Pick datetime of reservation">
+                <input class="guests" type="number" placeholder="No of guests">
+                <!-- <input class="submit" type="submit" value="Show Tables"> -->
+                <button class="submit" type=submit>Show<br>Tables</button> 
+            </form>
+            <div class="confirm-reservation">
+                <!-- Choose tables from the available ones and confirm reservation -->
+            </div>
+        </div>
+      </div>
+      <footer>
+        <div class="contact">
+            Address: Dimitriou Gounari 112 | Patras, Greece | 26220</br>
+            Phone: +30-2610231456
+        </div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </footer>
+    <script src="./javascripts/hidemenu.js"></script>
+    <script src="./javascripts/reserve.js"></script>

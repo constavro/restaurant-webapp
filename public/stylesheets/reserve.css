@@ -1,0 +1,291 @@
+nav{
+    background-color: rgb(0, 0, 0);
+
+}
+.container {
+    width: 100%;
+    
+  }
+.left, .right {
+    float: left;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-style: none;
+    max-width: 600px;
+    justify-content: center;
+  }
+.left{
+    background-color:rgb(255, 255, 255);
+    /* background: url(/images/empty-Floorplan.png) ; */
+    background: url(../images/empty-Floorplan.png);
+    background-repeat: no-repeat;
+    /* background-position-x: center; */
+    /* background-position: 85px ;
+    background-position-y: 0px; */
+    background-position: 85px 0px; 
+    display: block;
+    height: 110vh;
+    min-height: 1400px;
+    margin-right: 120px;
+    /* max-width: 600px; */
+}
+
+.description{
+    background:turquoise;
+    color: black;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.datecheck{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 30px;
+
+}
+.confirm-reservation{
+    margin: 20px;
+    width: auto;
+    height: 600px;
+    background-color: turquoise;
+    
+}
+.right{
+    border-style: dotted;
+}
+input{
+    border-radius: 50px;
+    height: 50px;
+    font-size: 20px;
+    /* text-align: center; */
+}
+/* ::placeholder{
+    text-align: center;
+} */
+.submit{
+    background-color: turquoise;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 45%;
+    font-size: large;
+}
+.AllTables{
+    height: 100%;
+}
+@media (max-width: 1300px) {
+    .left { 
+        float: none;
+        margin-right:0;
+        width:auto;
+        border:0;
+        border-bottom:2px solid #000;    
+      }
+    .right{
+        width: 100%;
+    }
+}
+
+/* Table Positions Relative */
+#t1{
+    background-image: url(../images/tables/table10_available.png);
+    background-repeat: no-repeat;
+    width:100px;
+    height:100px;
+    position: relative;
+    top: 1080px;
+    left: 200px;
+}
+#t2{
+    background-image: url(../images/tables/table16_available.png);
+    background-repeat: no-repeat;
+    width:150px;
+    height:180px;
+    position: relative;
+    top: 1030px;
+    left: 408px;
+}
+#t3{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:-120px;
+    left: 510px;
+}
+#t4{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -115px;
+    left: 510px;
+}
+#t5{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -110px;
+    left: 510px;
+}
+
+#t6{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -160px;
+    left: 450px;
+}
+#t7{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -160px;
+    left: 400px;
+}
+#t8{
+    background-image: url(../images/tables/table6_available.png);
+    background-repeat: no-repeat;
+    width:85px;
+    height:60px;
+    position: relative;
+    top: -40px;
+    left: 310px;
+}
+#t9{
+    background-image: url(../images/tables/table6_available.png);
+    background-repeat: no-repeat;
+    width:85px;
+    height:60px;
+    position: relative;
+    top: 30px;
+    left: 310px;
+}
+#t10{
+    background-image: url(../images/tables/table6_available.png);
+    background-repeat: no-repeat;
+    width:85px;
+    height:60px;
+    position: relative;
+    top: -160px;
+    left: 220px;
+}
+#t11{
+    background-image: url(../images/tables/table6_available.png);
+    background-repeat: no-repeat;
+    width:85px;
+    height:60px;
+    position: relative;
+    top: -90px;
+    left: 220px;
+}#t12{
+    background-image: url(../images/tables/table6_available.png);
+    background-repeat: no-repeat;
+    width:85px;
+    height:60px;
+    position: relative;
+    top: -215px;
+    left: 220px;
+}
+#t13{
+    background-image: url(../images/tables/table6_available.png);
+    background-repeat: no-repeat;
+    width:85px;
+    height:60px;
+    position: relative;
+    top: -275px;
+    left: 310px;
+}
+#t14{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -500px;
+    left: 160px;
+}
+#t15{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -480px;
+    left: 150px;
+}
+#t16{
+    background-image: url(../images/tables/table6_available1.png);
+    background-repeat: no-repeat;
+    width:60px;
+    height:85px;
+    position: relative;
+    top: -440px;
+    left: 135px;
+}
+#t17{
+    background-image: url(../images/tables/table6_available1.png);
+    background-repeat: no-repeat;
+    width:60px;
+    height:85px;
+    position: relative;
+    top: -430px;
+    left: 135px;
+}
+#t18{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -400px;
+    left: 130px;
+}
+#t19{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -390px;
+    left: 133px;
+}
+#t20{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -370px;
+    left: 135px;
+}
+#t21{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -335px;
+    left: 150px;
+}
+#t22{
+    background-image: url(../images/tables/table4_available.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -330px;
+    left: 160px;
+}

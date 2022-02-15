@@ -1,0 +1,55 @@
+body{
+    /* background-image: url(/images/About.jpg); */
+    background-image: url(../images/About.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
+    background-position: right;
+
+}
+.about{
+    width: 25%;
+    min-width: 300px;
+    height: 20%;
+    min-height: 200px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+    box-sizing: border-box;
+    /* border: 5px solid black; */
+    background-color: #4d4d4d;
+    opacity: 0.7;
+    border-radius: 30%;
+    padding: 35px;
+    overflow: auto;
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.reviews{
+    width :30%;
+    min-width: 400px;
+    height:20%;
+    min-height: 150px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    box-sizing: border-box;
+    background-color: #4d4d4d;
+    opacity: 1;
+    border-radius: 30%;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1100px) {
+    .about{
+        font-family: fantasy;
+    }
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}

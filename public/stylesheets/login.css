@@ -1,0 +1,110 @@
+html {
+    /* background: url(/images/Login\ Screen\ Background.jpg) no-repeat center center fixed; */
+    background: url(../images/Login\ Screen\ Background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+    background-position: right bottom;
+    bottom: 10%;
+}
+body{
+    min-height: 700px;
+}
+.form{
+
+    position:relative;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.login-form,
+.signup-form{
+    width:420px;
+    padding: 20px 10px;
+    background-color: rgba(255,255,255);
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.login-form form 
+.signup-form form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:100%
+}
+
+.login-form input,
+.signup-form input{
+    width:90%;
+    height:45px;
+    margin:6px 0px;
+    padding:0px 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+    border-radius:7px;
+}
+
+.form-btns{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+
+}
+
+.form-btns a{
+    color: #4d4d4d;
+    font-size: 0.9rem;
+}
+
+.sign-up-btn{
+    border-bottom:1px solid #868686;
+    line-height: 16px;
+
+}
+
+.signup-form
+{
+    display:none;
+}
+
+.login-form
+{
+    display:flex;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+}
+.employee-login{
+    background-color: turquoise;
+    /* border-radius: 50%; */
+    width: 90px;
+    height: 80px;
+    margin-left: 45%;
+    font-size: large;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+}
+@media (max-width: 1200px) {
+    html{
+        background: url(../images/Phone\ Login\ Screen\ Background.jpg) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: auto;
+        background-position: left bottom;
+    }
+
+}

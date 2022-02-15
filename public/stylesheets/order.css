@@ -1,0 +1,80 @@
+nav{
+    background-color: black;
+}
+body{
+    background-color: rgb(92, 92, 92);
+}
+.container {
+    width: 100%;
+    
+    
+  }
+.left, .right {
+    float: left;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-style: none;
+    width: 40%;
+    background-color: gold;
+    margin: 20px;
+    justify-content: center;
+    min-height: 600px;
+  }
+
+  .submitid{
+    background-color: turquoise;
+    font-size: large;
+}
+.ordermode{
+    display: flex;
+}
+
+.hidden{
+    width: 400px;
+    height: 100px;
+    border: dotted;
+    justify-items: center;
+    margin:0 auto;
+
+}
+.enterid,.delivery, .takeaway{
+    margin: 5px;
+    display: none;
+  }
+.todolist{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+.switch{
+    margin: 10px;
+}
+.radio1{
+    display: block;
+}
+.cart{
+    margin: 20px;
+    list-style: none;
+}
+li{
+    min-height: 22px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+  @media (max-width: 1200px) {
+    .left { 
+        float: none;
+        margin-right:0;
+        width:100%;
+        border:0;
+        border-bottom:2px solid #000;    
+      }
+    .right{
+        width: 100%;
+    }
+
+}

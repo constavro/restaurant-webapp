@@ -1,0 +1,194 @@
+        <!--  menu  -->
+        <nav>
+                <!-- logo -->
+                <a href="/" class="logo">
+                    <img src="./images/logo.png"/>
+                </a>
+                <!-- menu -->
+                <div class="nav-links" id="navLinks">
+                    <i class="material-icons" onclick="hideMenu()">close</i>
+                    <ul class="menu">
+                        <li><a href="/menu">Menu</a></li>
+                        <li><a href="/order">Order</a></li>
+                        <li><a href="/reserve">Reserve</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/login">
+                            <img src="./images/circle-cropped.png" />
+                            <!--<i class="far fa-user"></i> -->
+                        </a></li>
+                    </ul>
+                </div>
+                <i class="material-icons" onclick="showMenu()">menu</i>
+        </nav>
+    <div class="container">
+        <div class="left" >
+                <div class="container" id="Starters">
+                    <h2 class="text-center">Starters</h2>
+                    <div class="food-menu-box">
+
+                        <div class="food-menu-desc" id="food-menu-desc">
+                            <h4>Bruschetta</h4>
+                            <p class="food-price">$3.3</p>
+                            <br>
+        
+                        </div>
+                    </div>
+        
+                    <div class="food-menu-box">
+
+                        <div class="food-menu-desc" id="food-menu-desc">
+                            <h4>Onion Rings</h4>
+                            <p class="food-price">$2.8</p>
+                            <br>
+        
+                        </div>
+                    </div>
+        
+                    <div class="food-menu-box">
+
+                        <div class="food-menu-desc" id="food-menu-desc">
+                            <h4>Fresh Fries</h4>
+                            <p class="food-price">$3.5</p>
+                            <br>
+        
+                        </div>
+                    </div>
+        
+                    <div class="food-menu-box">
+
+                        <div class="food-menu-desc" id="food-menu-desc">
+                            <h4>Dips & Sauces</h4>
+                            <p class="food-price">$3.7</p>
+                            <br>
+        
+                        </div>
+                    </div>
+        
+                    <div class="food-menu-box">
+
+                        <div class="food-menu-desc" id="food-menu-desc">
+                            <h4>Grilled Bread</h4>
+                            <p class="food-price">$1.1</p>
+                            <br>
+        
+                        </div>
+                    </div>
+                    <div class="food-menu-box">
+
+                        <div class="food-menu-desc" id="food-menu-desc">
+                            <h4>Fried skin wedges (with Ketchup Sauce)</h4>
+                            <p class="food-price">$4.0</p>
+                            <br>
+        
+                        </div>
+                    </div>
+            </div>
+            <div class="container" id="Salads">
+                <h2 class="text-center">Salads</h2>
+    
+                <div class="food-menu-box">
+                    <div class="food-menu-desc" id="food-menu-desc">
+                        <h4>Ceasars</h4>
+                        <p class="food-price">$8.0</p>
+                        <br>
+    
+                    </div>
+                </div>
+    
+                <div class="food-menu-box">
+                    <div class="food-menu-desc" id="food-menu-desc">
+                        <h4>Quinoa Salad</h4>
+                        <p class="food-price">$7.5</p>
+                        <br>
+    
+                    </div>
+                </div>
+    
+                <div class="food-menu-box">
+                    <div class="food-menu-desc" id="food-menu-desc">
+                        <h4>Greek Salad</h4>
+                        <p class="food-price">$6.5</p>
+                        <br>
+    
+                    </div>
+                </div>
+    
+                <div class="food-menu-box">
+                    <div class="food-menu-desc" id="food-menu-desc">
+                        <h4>Bufallo Chicken Salad</h4>
+                        <p class="food-price">$7.8</p>
+                        <br>
+    
+                    </div>
+                </div>
+    
+                <div class="food-menu-box">
+                    <div class="food-menu-desc" id="food-menu-desc">
+                        <h4>Tomato & Mozzarella Salad</h4>
+                        <p class="food-price">$7.4</p>
+
+                        <br>
+    
+                    </div>
+                </div>
+    
+                <div class="food-menu-box">
+                    <div class="food-menu-desc" id="food-menu-desc">
+                        <h4>Green Salad</h4>
+                        <p class="food-price">$6.3</p>
+                        <br>
+    
+                    </div>
+                </div>
+    
+
+    
+            </div>
+
+    
+        </div>
+        <div class="right">
+            <div class=ordermode>
+                <form class="switch">
+                    <input class="radio1" name="switch" id="one" type="radio" value="1">
+                    <label for="one" class="switch__label">Delivery</label>
+                    <input class="radio1" name="switch" id="two" type="radio" value="2">
+                    <label for="two" class="switch__label">Take-Away</label>
+                    <input class="radio1" name="switch" id="three" type="radio" value="3">
+                    <label for="three" class="switch__label" >Reservation</label>
+                    <div class="switch__indicator" ></div>
+                </form>
+                <div class="hidden">
+                    <form class="enterid" id="enterid"> Enter Reservation ID
+                        <input class="reservationid" type="number" placeholder="Reservation ID">
+                        <button class="submitid" type="submit" >Submit ID</button>  
+                    </form>
+                    <div class="takeaway" id="takeaway">You can pickup your order from Gounari 12, Patras | Greece</div>
+                    <form class="delivery" id="delivery">
+                        <input class="address" type="text" placeholder="Address">
+                        <input class="number" type="number" placeholder="No.">
+                        <input class="number" type="number" placeholder="Phone">
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="todolist">
+                <h2>Your Cart</h2>
+                <ol class="cart" id="cart">
+
+                </ol>
+                <div class="menuHead" id="total">Total : 0</div>
+            </div>
+        </div>
+      </div>
+      <footer>
+        <div class="contact">
+            Address: Dimitriou Gounari 112 | Patras, Greece | 26220</br>
+            Phone: +30-2610231456
+        </div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </footer>
+    <script src="./javascripts/hidemenu.js"></script>
+    <script src="./javascripts/order.js"></script>
+    <script src="./javascripts/foodpick.js"></script>
